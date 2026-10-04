@@ -17,7 +17,7 @@ export function Header() {
         mode === "dark" ? "bg-gray-900 text-white" : "bg-white text-black"
       }`}
     >
-      <h1 className="font-bold">Muizz shop</h1>
+      <h1 className="text-2xl font-extrabold text-blue-600">Muizz shop</h1>
 
       <div className="flex items-center gap-4">
         {user.isLoggedIn ? (
